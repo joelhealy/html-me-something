@@ -1,4 +1,11 @@
 p {
-    color: red;
+    color: blue;
 }
 
+.genus {
+    font-style: italic;
+}
+
+.species {
+    font-style: italic;
+}
