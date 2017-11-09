@@ -1,5 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    font-size: 62.5%;
+    font-family: Sans-Serif;
+}
+
 p {
+    color: #020292;
+    padding: 20px 20px 20px 0px;
+    font-size: 1.6em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h2 {
+    background-color: #DDDDDD;
+    padding: 5px 10px 5px 10px;
+    margin: 50px 0px 0px 0px;
+    font-size: 2.5em;
+}
+
+section {
+    clear: both;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed red;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 5px;
+}
+
+figure {
+    width: 300;
+    float: right;
+    margin: 20px 0px 20px 20px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 40px 10px 10px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.nav-button {
+  color: #FFF;
+  background-color: #DDDDDD;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  margin: 2px 4px 2px 4px;
+  padding: 2px 15px 2px 15px;
+}
+
+.nav-button a:link {
+    color: red;
+    text-decoration: none;
+}
+
+.nav-button a:visited {
     color: blue;
+    text-decoration: none;
+}
+
+
+.species_list {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px 0px 10px 50px;
+    margin: 20px 0px 0px 20px;
+    font-size: 1.5em;
 }
 
 .genus {
@@ -8,4 +109,11 @@ p {
 
 .species {
     font-style: italic;
+}
+
+/* The assignment said I was supposed to us an id
+   but I really don't like them, so here you go
+*/
+#non-existent {
+    border 0px solid black;
 }
